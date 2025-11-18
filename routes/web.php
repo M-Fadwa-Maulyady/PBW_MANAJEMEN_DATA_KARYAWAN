@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\JabatanController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\KaryawanController;
 
@@ -13,3 +14,5 @@ Route::get('/dashboard', function () {
 
 // CRUD Routes
 Route::resource('karyawan', KaryawanController::class);
+
+Route::resource('jabatan', JabatanController::class);
