@@ -1,11 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\KaryawanController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/karyawan');
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
-});
+    return view('/dashboard');
+})->name('dashboard');
+
+// CRUD Routes
+Route::resource('karyawan', KaryawanController::class);
