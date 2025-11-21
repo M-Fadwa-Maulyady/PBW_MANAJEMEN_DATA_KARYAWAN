@@ -8,4 +8,8 @@
     <a href="{{ route('karyawan.index') }}">
         <i class="fa-solid fa-users"></i> Data Karyawan
     </a>
+
+    <a href="{{ route('jabatan.index') }}">
+        <i class="fa-solid fa-users"></i> Data Jabatan
+    </a>
 </div>
