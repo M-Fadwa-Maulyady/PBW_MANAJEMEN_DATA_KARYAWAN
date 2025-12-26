@@ -6,11 +6,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class Karyawan extends Model
 {
-    protected $fillable = [
+  protected $fillable = [
         'nama',
         'email',
-        'jabatan',
+        'jabatan_id',
         'alamat',
-        'tanggal_lahir',
+        'tanggal_lahir'
     ];
+
+    public function jabatan()
+    {
+        return $this->belongsTo(Jabatan::class);
+    }
 }

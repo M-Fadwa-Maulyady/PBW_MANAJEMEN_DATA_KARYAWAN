@@ -1,5 +1,15 @@
 <x-layoutAdmin>
+    <style>
+        .pagination .page-link {
+            border-radius: 6px;
+            margin: 0 3px;
+        }
 
+        .pagination .active .page-link {
+            background-color: #2563eb;
+            border-color: #2563eb;
+        }
+    </style>
     <div class="d-flex justify-content-between mb-4">
         <h2>Daftar Jabatan</h2>
         <a href="{{ route('jabatan.create') }}" class="btn btn-primary">
@@ -46,7 +56,7 @@
             </tbody>
         </table>
 
-        <div class="mt-3">
+        <div class="d-flex justify-content-center mt-4">
             {{ $jabatans->links() }}
         </div>
     </div>
