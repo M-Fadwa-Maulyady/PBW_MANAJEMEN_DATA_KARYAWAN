@@ -21,8 +21,16 @@
 
 
 <div class="mb-3">
-<label>Jabatan</label>
-<input type="text" name="jabatan" class="form-control" value="{{ $karyawan->jabatan }}" required>
+    <label>Jabatan</label>
+    <select name="jabatan_id" class="form-control" required>
+        <option value="">-- Pilih Jabatan --</option>
+        @foreach ($jabatans as $jabatan)
+            <option value="{{ $jabatan->id }}"
+                {{ $karyawan->jabatan_id == $jabatan->id ? 'selected' : '' }}>
+                {{ $jabatan->kode_jabatan }} - {{ $jabatan->nama_jabatan }}
+            </option>
+        @endforeach
+    </select>
 </div>
 
 
