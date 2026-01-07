@@ -27,8 +27,32 @@ Project ini cocok digunakan sebagai **tugas kuliah, portofolio, maupun sistem in
 ### Fitur Utama & Daftar Karyawan
 ![Fitur Utama](images/fitur-karyawan.png)
 
+### Daftar Karyawan
+![Fitur Utama](images/data-karyawan.png)
+
+### Buku Tamu
+![Fitur Utama](images/buku-tamu.png)
+
 ### Dashboard Admin
 ![Dashboard Admin](images/dashboard-admin.png)
+
+### Admin Data Karyawan
+![Dashboard Admin](images/admin-datakaryawan.png)
+
+### Admin Data Jabatan
+![Dashboard Admin](images/admin-datajabatan.png)
+
+### Admin Laporan Data Karyawan
+![Dashboard Admin](images/admin-laporandatakaryawan.png)
+
+### Admin Laporan Data Jabatan
+![Dashboard Admin](images/admin-laporandatajabatan.png)
+
+### Admin Buku Tamu
+![Dashboard Admin](images/admin-bukutamu.png)
+
+### Admin Cetak
+![Dashboard Admin](images/admin-cetak.png)
 
 ---
 
