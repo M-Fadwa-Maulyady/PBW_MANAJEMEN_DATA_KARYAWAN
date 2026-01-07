@@ -44,3 +44,25 @@ Project ini cocok digunakan sebagai **tugas kuliah, portofolio, maupun sistem in
 1. Clone repository
 ```bash
 git clone https://github.com/username/nama-repository.git
+
+
+Role Pengguna
+Admin
+
+Mengelola data karyawan
+
+Mengelola data jabatan
+
+Melihat laporan
+
+Mengelola buku tamu
+
+📌 Catatan
+
+Project ini dapat dikembangkan lebih lanjut (export PDF, grafik statistik, multi-role user, dll).
+
+Dibuat sebagai media pembelajaran dan pengelolaan data karyawan.
+
+📄 Lisensi
+
+Project ini bersifat open-source dan bebas digunakan untuk keperluan pembelajaran.
