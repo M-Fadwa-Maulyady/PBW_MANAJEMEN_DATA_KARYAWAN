@@ -48,6 +48,49 @@ Project ini cocok digunakan sebagai **tugas kuliah, portofolio, maupun sistem in
 git clone https://github.com/username/nama-repository.git
 ```
 
+2. Clone repository
+```bash
+cd nama-repository
+```
+
+3. Install dependency
+```bash
+composer install
+```
+
+4. Copy file environment
+```bash
+cp .env.example .env
+```
+
+5. Generate application key
+```bash
+php artisan key:generate
+```
+
+6. Konfigurasi database di file .env
+```bash
+DB_DATABASE=nama_database
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+7. Migrasi database
+```bash
+php artisan migrate
+```
+
+8. Jalankan server
+```bash
+php artisan serve
+```
+
+9. Akses aplikasi melalui browser:
+```bash
+http://127.0.0.1:8000
+```
+
+
 
 ## 👤 Role Pengguna
 Admin
