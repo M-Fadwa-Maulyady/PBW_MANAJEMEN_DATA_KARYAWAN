@@ -17,7 +17,7 @@ Project ini cocok digunakan sebagai **tugas kuliah, portofolio, maupun sistem in
 - 📖 Buku Tamu
 - 🔎 Filter data karyawan berdasarkan jabatan
 
----
+----
 
 ## 🖼️ Tampilan Aplikasi
 
@@ -54,7 +54,7 @@ Project ini cocok digunakan sebagai **tugas kuliah, portofolio, maupun sistem in
 ### Admin Cetak
 ![Dashboard Admin](images/admin-cetak.png)
 
----
+----
 
 ## 🛠️ Teknologi yang Digunakan
 - **Backend** : Laravel
