@@ -47,7 +47,7 @@ git clone https://github.com/username/nama-repository.git
 ```
 
 
-Role Pengguna
+## 👤 Role Pengguna
 Admin
 
 Mengelola data karyawan
@@ -58,12 +58,12 @@ Melihat laporan
 
 Mengelola buku tamu
 
-📌 Catatan
+## 📌 Catatan
 
 Project ini dapat dikembangkan lebih lanjut (export PDF, grafik statistik, multi-role user, dll).
 
 Dibuat sebagai media pembelajaran dan pengelolaan data karyawan.
 
-📄 Lisensi
+## 📄 Lisensi
 
 Project ini bersifat open-source dan bebas digunakan untuk keperluan pembelajaran.
