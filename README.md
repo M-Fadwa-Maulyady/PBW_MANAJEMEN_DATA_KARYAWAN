@@ -2,6 +2,8 @@
 
 Aplikasi **Sistem Manajemen Data Karyawan** adalah aplikasi berbasis web untuk mengelola data karyawan, jabatan, laporan, dan buku tamu secara terstruktur dan efisien.
 
+## About Project
+
 Project ini cocok digunakan sebagai **tugas kuliah, portofolio, maupun sistem internal perusahaan skala kecil–menengah**.
 
 ---
